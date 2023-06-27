@@ -1,0 +1,57 @@
+@Test(priority=1,enabled=false)
+	public void Login() throws InterruptedException
+	{
+		Hp.Mobile_number().sendKeys(prop.getProperty("mob"));
+		Thread.sleep(8000);
+		Hp.Req_otp().click();
+		Thread.sleep(10000);
+		//Assert.assertEquals(Hp.Profile_name().getText(),"TANUJA ");
+	}
+	
+	@Test (priority=8)
+	public void product()
+	{
+		drive.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		Hp.Product().click();
+		Assert.assertEquals(drive.findElement(By.xpath("//h1[@class='_10Ermr']")).getText(),"DSLR & Mirrorless");
+	}
+
+
+11		Flipkart	Home Page	Product Section	To verify that when user clicks on a product, user should be redirected to product specification page.	Home Page should be opened	1. Click on any product displayed on home page	User should be redirected to product specification page.	21 April,2023
+									
+12		Flipkart	Home Page	Login Page	To verify the functionality of Login button that home page is displayed after login or not.	Login Page should be opened	1.Enter Email/Mobile number in Email/Mobile number field	Home page should be displayed after login	21 April,2023
+							2.Click on  Request OTP button		
+							3.Enter OTP in OTP field		
+									
+									
+13		Flipkart	Home Page	Login Page	To verify that user name is displayed on home page or not after login.	User should be logged in 	1. Verify that username displayed on Home Page	Home page should be displayed after login and user name should be displayed on home page	21 April,2023
+									
+14		Flipkart	Home Page	Travel	To verify the functionality of “Travel” Link text, user should be redirected to Travel Page	Home Page should be opened	1.Click on “Travel” Link text	User should be redirected to Travel Page	20 April,2023
+
+
+@Test(priority = 8)
+	public void reorder_product() throws InterruptedException {
+		Thread.sleep(2000);
+		cartpage.clickOnReorder();
+		Thread.sleep(3000);
+		cartpage.enterQtyProduct(properties.getProperty("Quantity"));
+		Thread.sleep(3000);
+		cartpage.clickOnProceedToCheckout();
+		Thread.sleep(3000);
+		Assert.assertEquals(driver.getTitle(),"Checkout");
+	}
+
+
+//method for seleecting 5 stars rating
+
+public void select5Starsrating() throws InterruptedException {
+		Actions action = new Actions(driver);
+		List<WebElement> all_stars = driver.findElements(By.xpath("//div[@class='control review-control-vote']//input[@name='ratings[4]']"));
+		for (int i = 0; i<5; i++) {
+		    Thread.sleep(2000);
+		    action.moveToElement(all_stars.get(i)).build().perform();
+		    if(i == 3) {
+		        action.moveToElement(all_stars.get(i)).click().build().perform();
+		    }
+		}
+	}

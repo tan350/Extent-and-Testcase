@@ -1,0 +1,103 @@
+Website to be automated: https://www.saucedemo.com/
+
+Hashmap operations
+
+Java Question:
+If /else question :-
+If n is even print "Congratulations".
+If n is odd and in the range of 1 to 20 print "Well done".
+If n is odd and in the range of 21 to 27 print "Congratulations".
+If n is odd and greater then 27 print "Completed"
+
+
+Project: BebonetQA
+Lead: Arun Kumar
+Mail ID: arkumar@qasource.com
+Manager: Gaurav Puri
+Mail ID: gpuri@qasource.com
+Meeting Id: 94438777495
+
+Mukesh Kumar
+Mail ID: mukekumar@qasource.com
+
+Sunny Kumar
+Mail ID: sunnkumarn@qasource.com
+
+
+
+Flipkart wholesale form
+https://www.flipkartwholesale.com/know-more
+
+
+Luma website:
+https://magento.softwaretestingboard.com
+
+GIT Concepts:
+https://career.guru99.com/top-40-interview-questions-on-git/
+
+https://www.toolsqa.com/git/git-tutorial/
+
+Jenkins admin password:
+7670c2683e324abc99ec29ae1f251726
+
+
+Using Jenkins file
+https://www.jenkins.io/doc/book/pipeline/jenkinsfile/
+
+HRMS Application:
+http://10.10.3.192/hrms
+
+Bebonet Application:
+http://10.10.3.191/bebonet
+
+http://10.10.3.191/vms/user
+
+Team Name: QABebo
+Project Manager: Tanuja Sharama(Tanuja123)
+Team Lead: aarti Yadav(Aarti Yadav)
+
+Users:Aanchal Singh
+      Bharti Singh
+      Naresh Sharma
+      Sunny Tomar
+
+generate extent report
+https://automationtesting.in/capture-screenshot-in-extent-reports-java/
+
+How to generate extent report using tesng listeners and capture screenshot in extent report
+https://www.browserstack.com/guide/extent-reports-in-seleniumhttps://www.browserstack.com/guide/extent-reports-in-selenium
+
+
+Generate extent report using clas and tesng listeners and xml suite
+https://www.ontestautomation.com/using-the-extentreports-testng-listener-in-selenium-page-object-tests/
+
+Bank application url:
+https://parabank.parasoft.com/parabank/index.htm
+
+https://stackoverflow.com/questions/56420765/how-to-use-screeshotcapture-in-ireporter-interface-in-selenium-using-testng
+
+https://stackoverflow.com/questions/44542760/how-to-print-logs-by-using-extentreports-listener-in-java
+
+https://stackoverflow.com/questions/61073005/how-to-attach-screenshot-to-extent-report-in-java-selenium
+
+https://itecnote.com/tecnote/java-how-to-attach-screenshot-to-extent-report-in-java-selenium/
+
+https://stackoverflow.com/questions/67836644/screen-shot-is-not-displayed-in-extent-report
+
+
+Dependency aventstack
+  <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.0.6</version>
+</dependency>
+
+
+//Generate extent report working with screenshot
+https://automationtesting.in/capture-screenshot-in-extent-reports-java/
+
+
+Downlaod file link testing
+http://www.bitspedia.com/2022/09/how-to-verify-file-download-in-selenium.html
+
